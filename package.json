@@ -1,0 +1,21 @@
+{
+  "name": "compressed-sparse-row",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "demo": "ts-node demo/index.ts",
+    "lint": "tslint --project tsconfig.json --type-check src/**/*.ts",
+    "build": "tsc",
+    "prepare": "npm run lint && npm run build"
+  },
+  "devDependencies": {
+    "ts-node": "^3.0.6",
+    "tslint": "^5.4.3",
+    "typescript": "^2.3.4"
+  },
+  "homepage": "https://github.com/arzyu/compressed-sparse-row",
+  "license": "MIT"
+}
