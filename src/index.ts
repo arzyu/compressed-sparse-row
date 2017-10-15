@@ -29,7 +29,7 @@ export default {
 
     let i = 0;
 
-    values.forEach((value, valueIndex, arr) => {
+    values.forEach((value, valueIndex) => {
       const j = columnIndices[valueIndex];
       const rowOffset = rowOffsets[i + 1];
 
